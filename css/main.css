@@ -1,3 +1,81 @@
 body{
-  background-color: tomato;
+  	background-color: white;
 }
+
+nav{
+	
+	text-align: center;
+
+}
+
+ul{
+	padding-left: 0;
+	padding: 40px;
+	background-color: #555
+}
+
+li{
+	margin: 20px;
+	display: inline-block;
+	font-size: 20px;
+	transition: 0.5s ease;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+li:hover{
+	background-color: white;
+	border: 2px solid red;
+
+}
+
+a:hover{
+	color: red;
+	font-size: 35px; 
+}
+
+div {
+	text-align: center;
+	padding: 40px;
+	
+}
+
+button{
+	font-size: 20px;
+	padding: 40px 70px;
+	margin-left: 30px;
+	font-weight: bold;
+
+}
+
+#button1{
+	color: black;
+	background-color: #008000bd;
+}
+
+#button2{
+	color: white;
+	background-color: #0000ffad;
+}
+
+#button3{
+	color: black;
+	background-color: #ff6347c2;
+
+}
+
+#button1:hover{
+	background-color: green;
+}
+#button2:hover{
+	background-color: blue; 
+}
+
+#button3:hover{
+	background-color: tomato;
+}
+
